@@ -1,0 +1,27 @@
+// variable names must contain only Letters, Digits, or the symbols $ and _
+// the first charater must not be a digit
+
+//Examples of vaild names
+//let userName;
+//let test123;
+
+//These are fine because the both start with a letter and not a digit
+//These names are vaild also
+
+//let $ = 1;
+//let _ = 2;
+
+//These are vaild names but they don't convay good meaning of the data in the variable.
+//Variable should be named shouldthing you will remeber and understand from the vaiable name.
+
+//Exmaples of good variable names
+//let firstName = 'Travis'
+//let address = '1234 main st'
+//let age = 23
+
+//Examples of incrrect variable names
+//let 1a; This is incorrect becuase it started with a digit
+//let my-name; this is incorrect becuase it has a hyphen in the name which is a invalid charater for variables.
+
+//Case matters in vaiable names
+//apple and APPLE are two different variablein java script
