@@ -34,10 +34,18 @@ let homePlanet;
 let currentUser;
 
 let BRITHDAY = '04.16.1990';
-let age = calAge(BRITHDAY);
 
-function calAge()
-{
-    
-}
+let a = 2;
 
+let x = 1 + (a *= 2);
+
+console.log(x);
+
+
+//Assignment 1 from Javascript 1
+
+console.log(23+97);
+
+let sixNumbers = (4+6+9) / 77;
+
+console.log(sixNumbers);
