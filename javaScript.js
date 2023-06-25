@@ -9,16 +9,35 @@ alert(message); //We are priting the messge varaible to the screen using the ale
 
 //Creating new variables
 let user = 'John';
-let age = 25;
+let userAge = 25;
 let johnsMessage = 'hello';
 
 //See Note page "variableNotes.txt"
 
 //Creating const variables, variable that can not change
 
-const myBirthday = '04.16.1990';
+//const myBirthday = '04.16.1990';
+//This will give an error when ran
+//myBirthday = '12.25.1955';
 
-myBirthday = '12.25.1955';
+//console.log(myBirthday);
 
-console.log(myBirthday);
+//Task 1 variables
+let admin;
+let name = 'john';
+
+admin = name;
+
+alert(admin);
+
+let homePlanet;
+let currentUser;
+
+let BRITHDAY = '04.16.1990';
+let age = calAge(BRITHDAY);
+
+function calAge()
+{
+    
+}
 
