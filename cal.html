@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="javaScript.js"></script>
+</head>
+<body>
+    <h2>caluator</h2>
+    <input id="number1" type="text">
+    <input id="number2" type="text">
+    <button onclick="add()">+</button>
+    <button onclick="sub()">-</button>
+    <button onclick="mul()">*</button>
+    <button onclick="div()">/</button>
+    <script>
+        function add(){
+            let number1 = document.getElementById('number1').value;
+            let number2 = document.getElementById('number2').value;
+            let total;
+
+            total = parseInt(number1) + parseInt(number2);
+            alert(total);
+        }
+
+        function sub(){
+            let number1 = document.getElementById('number1').value;
+            let number2 = document.getElementById('number2').value;
+            let total;
+
+            total = parseInt(number1) - parseInt(number2);
+            alert(total);
+        }
+
+        function mul(){
+            let number1 = document.getElementById('number1').value;
+            let number2 = document.getElementById('number2').value;
+            let total;
+
+            total = parseInt(number1) * parseInt(number2);
+            alert(total);
+        }
+
+        function div(){
+            let number1 = document.getElementById('number1').value;
+            let number2 = document.getElementById('number2').value;
+            let total;
+
+            total = parseInt(number1) / parseInt(number2);
+            alert(total);
+        }
+    </script>
+</body>
+</html>
